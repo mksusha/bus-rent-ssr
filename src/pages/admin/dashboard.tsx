@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { supabase } from "../lib/supabaseClient";
-import AddBusForm from "../components/AddBusForm";
+import { supabase } from "../../lib/supabaseClient";
+import AddBusForm from "../../components/AddBusForm";
 
 type Bus = {
     id: number;
