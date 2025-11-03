@@ -16,7 +16,7 @@ import {
 import RequestBlock from "../../components/RequestBlock";
 import FleetSlider from "../../components/FleetSlider";
 import PageTitle from "../../components/PageTitle";
-import '../app/globals.css'
+import '../../app/globals.css'
 
 import Link from "next/link";
 

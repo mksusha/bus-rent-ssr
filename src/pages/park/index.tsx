@@ -4,7 +4,7 @@ import { supabase } from "../../lib/supabaseClient";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import PageTitle from "../../components/PageTitle";
-import '../app/globals.css'
+import '../../app/globals.css'
 
 type Bus = {
     id: number;

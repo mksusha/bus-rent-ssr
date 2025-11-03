@@ -3,7 +3,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import '../app/globals.css'
+import '../../app/globals.css'
 
 export default function AdminLogin() {
     const [login, setLogin] = useState("");
