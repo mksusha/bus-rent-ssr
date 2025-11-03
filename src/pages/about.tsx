@@ -2,6 +2,8 @@ import { useRef, useEffect, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageTitle from "../components/PageTitle";
+import '../app/globals.css'
+
 import { Users, Briefcase, Award, Building2 } from "lucide-react";
 
 export default function AboutPage() {

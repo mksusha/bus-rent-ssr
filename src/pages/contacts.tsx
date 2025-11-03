@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import PageTitle from "../components/PageTitle";
+import '../app/globals.css'
+
 import { MapPin, Phone, Printer, Mail, Clock } from "lucide-react";
 
 export default function ContactsPage() {
