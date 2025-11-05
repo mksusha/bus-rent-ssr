@@ -1,3 +1,5 @@
+"use client";
+
 import Script from "next/script";
 
 const GTM_ID = "GTM-MKM7CDQH";
@@ -20,15 +22,15 @@ export default function GoogleTagManager() {
                 `}
             </Script>
 
-            {/* GTM Noscript */}
-            <noscript>
-                <iframe
-                    src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
-                    height="0"
-                    width="0"
-                    style={{ display: "none", visibility: "hidden" }}
-                ></iframe>
-            </noscript>
+            {/* GTM noscript */}
+            <noscript
+                dangerouslySetInnerHTML={{
+                    __html: `
+                        <iframe src="https://www.googletagmanager.com/ns.html?id=${GTM_ID}"
+                        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                    `,
+                }}
+            />
         </>
     );
 }
