@@ -20,7 +20,7 @@ const Header: React.FC = () => {
                 <div className="flex items-center justify-between px-6 py-3">
                     <Link href="/">
                         <img
-                            src="../../public/bus-logo.svg"
+                            src="/bus-logo.svg"
                             alt="Логотип компании по аренде автобусов"
                             className="h-8 w-auto transition-transform duration-300 hover:scale-105 cursor-pointer"
                             width={128}
